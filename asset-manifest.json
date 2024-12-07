@@ -1,15 +1,10 @@
 {
   "files": {
-    "main.css": "/IRP/static/css/main.e6c13ad2.css",
-    "main.js": "/IRP/static/js/main.7b57bd01.js",
-    "static/js/453.0deb8c49.chunk.js": "/IRP/static/js/453.0deb8c49.chunk.js",
+    "main.js": "/IRP/static/js/main.4f0699ff.js",
     "index.html": "/IRP/index.html",
-    "main.e6c13ad2.css.map": "/IRP/static/css/main.e6c13ad2.css.map",
-    "main.7b57bd01.js.map": "/IRP/static/js/main.7b57bd01.js.map",
-    "453.0deb8c49.chunk.js.map": "/IRP/static/js/453.0deb8c49.chunk.js.map"
+    "main.4f0699ff.js.map": "/IRP/static/js/main.4f0699ff.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6c13ad2.css",
-    "static/js/main.7b57bd01.js"
+    "static/js/main.4f0699ff.js"
   ]
 }
