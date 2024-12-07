@@ -1,12 +1,15 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
-import { ThemeProvider } from '@mui/material/styles';
-import theme from './theme';
+import Button from '@mui/material/Button';
+import SaveIcon from '@mui/icons-material/Save';
 
-ReactDOM.render(
-  <ThemeProvider theme={theme}>
-    <App />
-  </ThemeProvider>,
-  document.getElementById('root')
-);
+function App() {
+  return (
+    <div>
+      <Button variant="contained" startIcon={<SaveIcon />} color="primary">
+        Save
+      </Button>
+    </div>
+  );
+}
+
+export default App;
