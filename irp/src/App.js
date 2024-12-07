@@ -1,15 +1,18 @@
-import React from 'react';
-import Button from '@mui/material/Button';
-import SaveIcon from '@mui/icons-material/Save';
+// Code Starts
+import React from "react";
+import Login from "./Components/Login";
+import { CssBaseline, ThemeProvider, createTheme } from "@mui/material";
+
+const theme = createTheme();
 
 function App() {
   return (
-    <div>
-      <Button variant="contained" startIcon={<SaveIcon />} color="primary">
-        Save
-      </Button>
-    </div>
+    <ThemeProvider theme={theme}>
+      <CssBaseline />
+      <Login />
+    </ThemeProvider>
   );
 }
 
 export default App;
+// Code Ends
